@@ -2,4 +2,4 @@
 
 ## Результат вы можете посмотреть здесь
 
-[Моя студенческая работа по верстке](https://github.com/OlgaKislisyna.github.io/resume/)
+[Моя студенческая работа по верстке](https://olgakislisyna.github.io/resume/)
