@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    background-color: rgb(225, 223, 223);
+    color: darkslategray;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+a {
+    
+    text-decoration: none;
+}
+a:hover {
+    
+    text-decoration: underline;
+}
+a:visited {
+    color: rgb(89, 10, 109);
+    }
+a:active {
+    color: rgb(20, 20, 63);
+}
+
+ .container {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 30px;
+ }  
+ .info {
+    margin-bottom:20px ;
+    display: flex;
+     }
+.fotomy {
+    width:200;
+    box-shadow: 5px 4px 20px rgba(81, 53, 83, 0.25);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.info-text {
+    margin-left: 40px;
+}
+.info-text p{
+    font-style: italic;
+    font-weight: 600;
+    color: rgb(133, 82, 133);
+    margin-bottom: 15px;
+} 
+.info-text h1,
+.info-text h4,
+.info-text a 
+{
+    margin-bottom: 15px;
+    padding: 5px;
+}
+@media (max-width: 661px){
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.list {
+    padding: 0 20px;
+}
+.list li{
+    margin-bottom:10px;
+}
+.personal_card {
+    padding: 15px 35px;
+    border-radius:15px ;
+    margin-bottom: 20px;    
+}
+.personal_card h2 {
+    margin-bottom: 10px; 
+}
+.experience {
+    background: rgb(251, 193, 222);
+    opacity: 0.9;
+    
+}
+.hobby {
+background: rgb(196, 245, 247);
+opacity: 0.9;
+
+}
+.hobby ol {
+    padding-left: 30px;
+}
+.table {
+    width: 100%;
+}
+.table td {
+    padding-bottom: 10px;
+}
+.table td:nth-child(1) {
+    color: rgb(1, 14, 14);
+}
+.form h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form_row {
+    margin-bottom: 20px;
+    display: flex;
+}
+@media (max-width: 661px){
+    .form_row {
+        display: block;
+    }
+    .form_row .form-groop {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+    
+
+.form_row .form-groop {
+    width: 50%;
+    margin-right: 20px;
+}
+.form_row .form-groop:last-child {
+    margin-right: 0;
+}
+.form-groop label{
+    display: block;
+    font-size: 16px;
+    color: rgb(18, 30, 30);
+}
+.form-groop input,
+.form-groop textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(133, 82, 133);
+    color: rgb(20, 26, 26);
+    padding: 15px 0 10px;
+    outline: 0;
+    font-family: inherit;
+}
+.btn {
+    background: blueviolet;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 7px;
+    color: burlywood;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover {
+    color:rgb(18, 31, 31)
+}
